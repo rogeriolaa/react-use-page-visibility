@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 /// <reference types="node" />
-import { usePageVisibility } from "@n0n3br/use-page-visibility";
+import { usePageVisibility } from "react-use-page-visibility";
 
 function App() {
   const isVisible = usePageVisibility();
