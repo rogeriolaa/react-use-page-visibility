@@ -1,5 +1,5 @@
 {
-  "name": "react-use-page-visibility",
+  "name": "@n0n3br/react-use-page-visibility",
   "version": "0.0.1",
   "description": "A React hook to detect if the browser tab is currently visible/active to the user.",
   "main": "dist/index.js",
