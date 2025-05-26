@@ -1,6 +1,6 @@
 {
-  "name": "@n0n3br/use-page-visibility",
-  "version": "1.0.0",
+  "name": "react-use-page-visibility",
+  "version": "0.0.1",
   "description": "A React hook to detect if the browser tab is currently visible/active to the user.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,8 +21,16 @@
     "visibility",
     "browser"
   ],
-  "author": "Rogerio Laa",
+  "author": "rogeriolaa",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogeriolaa/react-use-page-visibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogeriolaa/react-use-page-visibility/issues"
+  },
+  "homepage": "https://github.com/rogeriolaa/react-use-page-visibility#readme",
   "devDependencies": {
     "@testing-library/react-hooks": "^8.0.1",
     "@types/react": "^18.3.3",

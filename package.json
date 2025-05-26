@@ -1,7 +1,29 @@
 {
   "name": "react-use-page-visibility-monorepo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
+  "description": "A React hook to track page visibility",
+  "keywords": [
+    "react",
+    "hook",
+    "page-visibility",
+    "visibility",
+    "browser"
+  ],
+  "author": "rogeriolaa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogeriolaa/react-use-page-visibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogeriolaa/react-use-page-visibility/issues"
+  },
+  "homepage": "https://github.com/rogeriolaa/react-use-page-visibility#readme",
+  "files": [
+    "packages/use-page-visibility/dist",
+    "packages/use-page-visibility/src"
+  ],
   "scripts": {
     "build": "pnpm -r build",
     "test": "pnpm -r test",
