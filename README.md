@@ -15,7 +15,7 @@ pnpm add @n0n3br/react-use-page-visibility
 ## Usage
 
 ```typescript
-import { usePageVisibility } from "react-use-page-visibility";
+import { usePageVisibility } from "@n0n3br/react-use-page-visibility";
 
 function MyComponent() {
   const isVisible = usePageVisibility();
