@@ -23,6 +23,11 @@
   ],
   "author": "rogeriolaa",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "scope": "@n0n3br"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rogeriolaa/react-use-page-visibility.git"

@@ -28,7 +28,8 @@
     "build": "pnpm -r build",
     "test": "pnpm -r test",
     "lint": "pnpm -r lint",
-    "dev": "pnpm --filter example dev"
+    "dev": "pnpm --filter example dev",
+    "release": "pnpm -r publish --access public"
   },
   "devDependencies": {
     "pnpm": "^9.1.1"

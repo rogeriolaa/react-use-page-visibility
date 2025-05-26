@@ -5,11 +5,11 @@ A React hook to detect if the browser tab is currently visible/active to the use
 ## Installation
 
 ```bash
-npm install react-use-page-visibility
+npm install @n0n3br/react-use-page-visibility
 # or
-yarn add react-use-page-visibility
+yarn add @n0n3br/react-use-page-visibility
 # or
-pnpm add react-use-page-visibility
+pnpm add @n0n3br/react-use-page-visibility
 ```
 
 ## Usage
