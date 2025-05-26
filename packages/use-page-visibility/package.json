@@ -1,0 +1,44 @@
+{
+  "name": "@n0n3br/use-page-visibility",
+  "version": "1.0.0",
+  "description": "A React hook to detect if the browser tab is currently visible/active to the user.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "page",
+    "visibility",
+    "browser"
+  ],
+  "author": "Rogerio Laa",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.2.2",
+    "vitest": "^1.6.0",
+    "jsdom": "^24.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
